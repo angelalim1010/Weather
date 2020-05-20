@@ -13,6 +13,13 @@
 		85D9763D244E31640073E398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85D9763B244E31640073E398 /* Main.storyboard */; };
 		85D9763F244E316A0073E398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85D9763E244E316A0073E398 /* Assets.xcassets */; };
 		85D97642244E316A0073E398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85D97640244E316A0073E398 /* LaunchScreen.storyboard */; };
+		85E787012466675600862014 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E787002466675600862014 /* Singleton.swift */; };
+		85E78703246758C500862014 /* FiveDayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E78702246758C500862014 /* FiveDayTableViewController.swift */; };
+		85E7870B2467C75B00862014 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E787092467BFB100862014 /* NameViewController.swift */; };
+		85E7870D2468E36700862014 /* ForecastWeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E7870C2468E36700862014 /* ForecastWeatherCell.swift */; };
+		85E7870F2469D99100862014 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E7870E2469D99100862014 /* Forecast.swift */; };
+		85E78713246B042D00862014 /* ForecastWeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85E78712246B042D00862014 /* ForecastWeatherCell.xib */; };
+		85E78717246CD65100862014 /* TipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E78716246CD65100862014 /* TipsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		85D9763E244E316A0073E398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85D97641244E316A0073E398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85D97643244E316A0073E398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85E787002466675600862014 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		85E78702246758C500862014 /* FiveDayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveDayTableViewController.swift; sourceTree = "<group>"; };
+		85E787092467BFB100862014 /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
+		85E7870C2468E36700862014 /* ForecastWeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastWeatherCell.swift; sourceTree = "<group>"; };
+		85E7870E2469D99100862014 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		85E78712246B042D00862014 /* ForecastWeatherCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForecastWeatherCell.xib; sourceTree = "<group>"; };
+		85E78716246CD65100862014 /* TipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +70,17 @@
 		85D97634244E31640073E398 /* Weather */ = {
 			isa = PBXGroup;
 			children = (
+				85E78716246CD65100862014 /* TipsViewController.swift */,
 				85D97635244E31640073E398 /* AppDelegate.swift */,
 				85D97637244E31640073E398 /* SceneDelegate.swift */,
+				85E78702246758C500862014 /* FiveDayTableViewController.swift */,
+				85E7870E2469D99100862014 /* Forecast.swift */,
 				85D97639244E31640073E398 /* ViewController.swift */,
+				85E787002466675600862014 /* Singleton.swift */,
 				85D9763B244E31640073E398 /* Main.storyboard */,
+				85E78712246B042D00862014 /* ForecastWeatherCell.xib */,
+				85E7870C2468E36700862014 /* ForecastWeatherCell.swift */,
+				85E787092467BFB100862014 /* NameViewController.swift */,
 				85D9763E244E316A0073E398 /* Assets.xcassets */,
 				85D97640244E316A0073E398 /* LaunchScreen.storyboard */,
 				85D97643244E316A0073E398 /* Info.plist */,
@@ -125,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85E78713246B042D00862014 /* ForecastWeatherCell.xib in Resources */,
 				85D97642244E316A0073E398 /* LaunchScreen.storyboard in Resources */,
 				85D9763F244E316A0073E398 /* Assets.xcassets in Resources */,
 				85D9763D244E31640073E398 /* Main.storyboard in Resources */,
@@ -138,8 +160,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85E78703246758C500862014 /* FiveDayTableViewController.swift in Sources */,
 				85D9763A244E31640073E398 /* ViewController.swift in Sources */,
 				85D97636244E31640073E398 /* AppDelegate.swift in Sources */,
+				85E7870D2468E36700862014 /* ForecastWeatherCell.swift in Sources */,
+				85E7870F2469D99100862014 /* Forecast.swift in Sources */,
+				85E7870B2467C75B00862014 /* NameViewController.swift in Sources */,
+				85E787012466675600862014 /* Singleton.swift in Sources */,
+				85E78717246CD65100862014 /* TipsViewController.swift in Sources */,
 				85D97638244E31640073E398 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,12 +313,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQNG4728KA;
 				INFOPLIST_FILE = Weather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.Weather;
+				PRODUCT_BUNDLE_IDENTIFIER = com.angelalim.Weather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,12 +331,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQNG4728KA;
 				INFOPLIST_FILE = Weather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.Weather;
+				PRODUCT_BUNDLE_IDENTIFIER = com.angelalim.Weather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
